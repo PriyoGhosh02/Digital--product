@@ -8,3 +8,26 @@
     /* for sowing pic */
     /* cursor: url("pic/e.png"),auto; */
 }
+/* use for flex */
+.continer{
+    display: flex;
+    /* row borabor contain kore */
+    justify-content: space-around;
+    /* colom borabor */
+    align-items: center;
+    /* direction cange kora */
+    flex-direction: row-reverse;
+    /* there huge tag  */
+}
+.box{
+    padding: 15px;
+    background-color: red;
+    width: 110px;
+}
+.box2{
+    padding: 30px;
+    background-color: green;
+}
+.box3{
+    background-color: yellow;
+}
